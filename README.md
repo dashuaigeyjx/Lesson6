@@ -50,7 +50,7 @@
 - 大部分问题不是线性的，所以添加一个隐藏层，更易于捕捉到输入与输出之间复杂的相互作用，表示更复杂的模型
 - 隐藏层也可以不只一个，可以用更深的网络
 - 可能更易于逼近一些函数
-
+![](https://github.com/LanshanTeam/Courseware-Backend-Python-2023/raw/main/lesson-04/img/muti.png)
 ### 激活函数
 
 *激活函数*（activation function）通过计算加权和并加上偏置来确定神经元是否应该被激活， 它们将输入信号转换为输出的可微运算。

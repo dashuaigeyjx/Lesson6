@@ -51,8 +51,6 @@
 - 隐藏层也可以不只一个，可以用更深的网络，
 - 可能更易于逼近一些函数
 
-![img](["C:\Users\lenovo\Downloads\Courseware-Backend-Python-2023-main\Courseware-Backend-Python-2023-main\lesson-04\img\muti.png"](https://www.bing.com/images/search?view=detailV2&ccid=aqOKipo9&id=121C397999EFB9F83943E405926D98C1C858DC43&thid=OIP.aqOKipo9A7sx8zHvVbZFuwHaEL&mediaurl=https%3A%2F%2Fimg-blog.csdnimg.cn%2F20200517191914326.png&cdnurl=https%3A%2F%2Fth.bing.com%2Fth%2Fid%2FR.6aa38a8a9a3d03bb31f331ef55b645bb%3Frik%3DQ9xYyMGYbZIF5A%26pid%3DImgRaw%26r%3D0&exph=1110&expw=1968&q=%E5%A4%9A%E5%B1%82%E6%84%9F%E7%9F%A5%E6%9C%BA%E5%9B%BE%E7%89%87&simid=608034436525080492&FORM=IRPRST&ck=90C1AA6BDA7BDF0DE17986EE963553C6&selectedIndex=0&itb=0&cw=1390&ch=764&ajaxhist=0&ajaxserp=0))
-
 ### 激活函数
 
 *激活函数*（activation function）通过计算加权和并加上偏置来确定神经元是否应该被激活， 它们将输入信号转换为输出的可微运算。
@@ -65,7 +63,6 @@ ReLU函数通过将相应的活性值设为0，仅保留正元素并丢弃所有
 
 使用ReLU的原因是，它求导表现得特别好：要么让参数消失，要么让参数通过。
 
-![image-20231122103605746](./img/relu.png)
 
 ![../_images/output_mlp_76f463_18_1.svg](https://zh.d2l.ai/_images/output_mlp_76f463_18_1.svg)
 
@@ -75,7 +72,6 @@ ReLU函数通过将相应的活性值设为0，仅保留正元素并丢弃所有
 
 它是一个平滑的、可微的阈值单元近似。 当我们想要将输出视作二元分类问题的概率时， sigmoid仍然被广泛用作**输出**单元上的激活函数 （sigmoid可以视为softmax的特例）。 
 
-![image-20231122104751861](./img/sigmoid.png)
 
 ![../_images/output_mlp_76f463_48_0.svg](https://zh.d2l.ai/_images/output_mlp_76f463_48_0.svg)
 
